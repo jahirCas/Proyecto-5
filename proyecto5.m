@@ -1,5 +1,6 @@
 %EDO con Runge-Kutta / Euler Mejorado
 clc
+%Impresion de bienvenida
 fprintf('Bienvenido al programa para calcular el resultado de una EDO\nPor medio del metodo Runge-Kutta y Euler Mejorado')
 fprintf(' \n');
 
@@ -11,7 +12,7 @@ fprintf(' \n');
 x0=input('Ingrese la x0: ');
 xn=input('Ingrese la xn: ');
 y0=input('Ingrese la y0: ');
-h=input('Ingrese el tamaño de paso/intervalos: ');
+h=input('Ingrese el tamaÃ±o de paso/intervalos: ');
 fprintf(' \n');
 
 %Calculos - General
